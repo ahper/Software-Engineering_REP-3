@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane cache="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="547.0" style="-fx-background-color: #7B68EE;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainWindowController">
+   <children>
+      <Pane fx:id="paneGame" layoutX="10.0" layoutY="14.0" prefHeight="174.0" prefWidth="525.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 15;">
+         <children>
+            <ImageView fx:id="view1" fitHeight="150.0" fitWidth="150.0" layoutX="14.0" layoutY="12.0" onMouseClicked="#onViewClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/fishka.gif" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="view2" fitHeight="150.0" fitWidth="150.0" layoutX="188.0" layoutY="12.0" onMouseClicked="#onViewClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/fishka.gif" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="view3" fitHeight="150.0" fitWidth="150.0" layoutX="361.0" layoutY="12.0" onMouseClicked="#onViewClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/fishka.gif" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="10.0" layoutY="196.0" prefHeight="65.0" prefWidth="260.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 15;">
+         <children>
+            <Button fx:id="btnStart" layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#onBtnStartClicked" prefHeight="45.0" prefWidth="105.0" style="-fx-background-radius: 15;" text="Начать игру">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnEnd" layoutX="141.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#onBtnEndClicked" prefHeight="45.0" prefWidth="105.0" style="-fx-background-radius: 15;" text="Закончить игру">
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="276.0" layoutY="196.0" prefHeight="65.0" prefWidth="126.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 15;">
+         <children>
+            <Label fx:id="lblNickname2" alignment="CENTER" contentDisplay="CENTER" layoutX="38.0" layoutY="4.0" prefHeight="21.0" prefWidth="50.0" text="ИГРОК" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblPlayerNickname" layoutX="6.0" layoutY="23.0" prefHeight="0.0" prefWidth="115.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblPlayerBalance" layoutX="6.0" layoutY="41.0" prefHeight="0.0" prefWidth="115.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="409.0" layoutY="196.0" prefHeight="65.0" prefWidth="126.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 15;">
+         <children>
+            <Label fx:id="lblNickname21" alignment="CENTER" contentDisplay="CENTER" layoutX="20.0" layoutY="4.0" prefHeight="21.0" prefWidth="88.0" text="АВТОМАТ" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblMachineBalance" layoutX="7.0" layoutY="28.0" prefHeight="10.0" prefWidth="115.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</Pane>
