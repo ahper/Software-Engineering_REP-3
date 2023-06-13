@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <top>
+      <Pane BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="login" alignment="CENTER" prefHeight="31.0" prefWidth="84.0" promptText="login" />
+            <Button layoutX="15.0" layoutY="35.0" mnemonicParsing="false" onAction="#onStart" text="Войти" />
+         </children>
+      </Pane>
+   </top>
+   <center>
+      <ScrollPane fx:id="viewpane" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
