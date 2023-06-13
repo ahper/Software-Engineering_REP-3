@@ -1,0 +1,235 @@
+STATUS | wrapper  | 2023/04/06 23:36:01 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/04/06 23:36:01 | Launching a JVM...
+INFO   | jvm 1    | 2023/04/06 23:36:01 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/04/06 23:36:01 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/04/06 23:36:01 | 
+INFO   | jvm 1    | 2023/04/06 23:36:01 | 
+INFO   | jvm 1    | 2023/04/06 23:36:01 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2023/04/06 23:36:01 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2023/04/06 23:36:01 |           could not be loaded:
+INFO   | jvm 1    | 2023/04/06 23:36:01 |             C:\Users\ahtir\Desktop\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2023/04/06 23:36:01 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2023/04/06 23:36:01 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2023/04/06 23:36:01 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2023/04/06 23:36:01 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2023/04/06 23:36:01 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2023/04/06 23:36:01 |           Reported cause:
+INFO   | jvm 1    | 2023/04/06 23:36:01 |             C:\Users\ahtir\Desktop\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2023/04/06 23:36:01 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2023/04/06 23:36:01 | 
+INFO   | jvm 1    | 2023/04/06 23:36:01 | WrapperSimpleApp: Unable to locate the class org.h2.tools.Server: java.lang.ClassNotFoundException: org.h2.tools.Server
+INFO   | jvm 1    | 2023/04/06 23:36:01 | 
+INFO   | jvm 1    | 2023/04/06 23:36:01 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2023/04/06 23:36:01 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class} [app_arguments]
+INFO   | jvm 1    | 2023/04/06 23:36:01 | 
+INFO   | jvm 1    | 2023/04/06 23:36:01 | Where:
+INFO   | jvm 1    | 2023/04/06 23:36:01 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2023/04/06 23:36:01 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2023/04/06 23:36:01 |                   application.
+STATUS | wrapper  | 2023/04/06 23:36:03 | <-- Wrapper Stopped
+FATAL  | wrapper  | 2023/04/06 23:40:09 | OpenSCManager failed - Отказано в доступе. (0x5)
+STATUS | wrapper  | 2023/04/06 23:40:15 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/04/06 23:40:15 | Launching a JVM...
+INFO   | jvm 1    | 2023/04/06 23:40:16 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/04/06 23:40:16 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 
+INFO   | jvm 1    | 2023/04/06 23:40:16 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2023/04/06 23:40:16 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2023/04/06 23:40:16 |           could not be loaded:
+INFO   | jvm 1    | 2023/04/06 23:40:16 |             C:\Users\ahtir\Desktop\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2023/04/06 23:40:16 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2023/04/06 23:40:16 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2023/04/06 23:40:16 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2023/04/06 23:40:16 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2023/04/06 23:40:16 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2023/04/06 23:40:16 |           Reported cause:
+INFO   | jvm 1    | 2023/04/06 23:40:16 |             C:\Users\ahtir\Desktop\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2023/04/06 23:40:16 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 
+INFO   | jvm 1    | 2023/04/06 23:40:16 | TCP server running at tcp://192.168.43.84:57754 (only local connections)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | The Web Console server could not be started. Possible cause: another server is already running at http://192.168.43.84:8082
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 
+INFO   | jvm 1    | 2023/04/06 23:40:16 | WrapperSimpleApp: Encountered an error running main: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Ошибка при открытии порта "8082" (порт может уже использоваться), причина: "java.net.BindException: Address already in use: JVM_Bind"
+INFO   | jvm 1    | 2023/04/06 23:40:16 | Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: JVM_Bind" [90061-214]
+INFO   | jvm 1    | 2023/04/06 23:40:16 | org.h2.jdbc.JdbcSQLNonTransientConnectionException: Ошибка при открытии порта "8082" (порт может уже использоваться), причина: "java.net.BindException: Address already in use: JVM_Bind"
+INFO   | jvm 1    | 2023/04/06 23:40:16 | Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: JVM_Bind" [90061-214]
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at org.h2.message.DbException.get(DbException.java:212)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:211)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at org.h2.util.NetUtils.createServerSocket(NetUtils.java:177)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at org.h2.server.web.WebServer.start(WebServer.java:409)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at org.h2.tools.Server.start(Server.java:521)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at org.h2.tools.Server.runTool(Server.java:339)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at org.h2.tools.Server.main(Server.java:126)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at java.lang.Thread.run(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | Caused by: java.net.BindException: Address already in use: JVM_Bind
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at java.net.PlainSocketImpl.bind(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at java.net.ServerSocket.bind(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at java.net.ServerSocket.<init>(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at java.net.ServerSocket.<init>(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:207)
+INFO   | jvm 1    | 2023/04/06 23:40:16 | 	... 11 more
+STATUS | wrapper  | 2023/04/06 23:40:18 | <-- Wrapper Stopped
+STATUS | wrapper  | 2023/04/06 23:40:31 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/04/06 23:40:31 | Launching a JVM...
+INFO   | jvm 1    | 2023/04/06 23:40:31 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/04/06 23:40:31 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/04/06 23:40:31 | 
+INFO   | jvm 1    | 2023/04/06 23:40:31 | 
+INFO   | jvm 1    | 2023/04/06 23:40:31 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2023/04/06 23:40:31 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2023/04/06 23:40:31 |           could not be loaded:
+INFO   | jvm 1    | 2023/04/06 23:40:31 |             C:\Users\ahtir\Desktop\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2023/04/06 23:40:31 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2023/04/06 23:40:31 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2023/04/06 23:40:31 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2023/04/06 23:40:31 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2023/04/06 23:40:31 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2023/04/06 23:40:31 |           Reported cause:
+INFO   | jvm 1    | 2023/04/06 23:40:31 |             C:\Users\ahtir\Desktop\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2023/04/06 23:40:31 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2023/04/06 23:40:31 | 
+INFO   | jvm 1    | 2023/04/06 23:40:32 | TCP server running at tcp://192.168.43.84:57758 (only local connections)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | The Web Console server could not be started. Possible cause: another server is already running at http://192.168.43.84:8082
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 
+INFO   | jvm 1    | 2023/04/06 23:40:32 | WrapperSimpleApp: Encountered an error running main: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Ошибка при открытии порта "8082" (порт может уже использоваться), причина: "java.net.BindException: Address already in use: JVM_Bind"
+INFO   | jvm 1    | 2023/04/06 23:40:32 | Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: JVM_Bind" [90061-214]
+INFO   | jvm 1    | 2023/04/06 23:40:32 | org.h2.jdbc.JdbcSQLNonTransientConnectionException: Ошибка при открытии порта "8082" (порт может уже использоваться), причина: "java.net.BindException: Address already in use: JVM_Bind"
+INFO   | jvm 1    | 2023/04/06 23:40:32 | Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: JVM_Bind" [90061-214]
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at org.h2.message.DbException.get(DbException.java:212)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:211)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at org.h2.util.NetUtils.createServerSocket(NetUtils.java:177)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at org.h2.server.web.WebServer.start(WebServer.java:409)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at org.h2.tools.Server.start(Server.java:521)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at org.h2.tools.Server.runTool(Server.java:339)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at org.h2.tools.Server.main(Server.java:126)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at java.lang.Thread.run(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | Caused by: java.net.BindException: Address already in use: JVM_Bind
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at java.net.PlainSocketImpl.bind(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at java.net.ServerSocket.bind(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at java.net.ServerSocket.<init>(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at java.net.ServerSocket.<init>(Unknown Source)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:207)
+INFO   | jvm 1    | 2023/04/06 23:40:32 | 	... 11 more
+STATUS | wrapper  | 2023/04/06 23:40:34 | <-- Wrapper Stopped
+FATAL  | wrapper  | 2023/04/06 23:41:14 | OpenSCManager failed - Отказано в доступе. (0x5)
+STATUS | wrapper  | 2023/05/29 21:46:16 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/05/29 21:46:17 | Launching a JVM...
+INFO   | jvm 1    | 2023/05/29 21:46:18 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/05/29 21:46:18 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/05/29 21:46:18 | 
+INFO   | jvm 1    | 2023/05/29 21:46:18 | 
+INFO   | jvm 1    | 2023/05/29 21:46:18 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2023/05/29 21:46:18 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2023/05/29 21:46:18 |           could not be loaded:
+INFO   | jvm 1    | 2023/05/29 21:46:18 |             C:\Users\ahtir\Desktop\ВУЗ\3 КУРС\2 СЕМЕСТР\МИНАКОВА\TASK8_DAO_V2\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2023/05/29 21:46:18 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2023/05/29 21:46:18 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2023/05/29 21:46:18 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2023/05/29 21:46:18 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2023/05/29 21:46:18 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2023/05/29 21:46:18 |           Reported cause:
+INFO   | jvm 1    | 2023/05/29 21:46:18 |             C:\Users\ahtir\Desktop\ВУЗ\3 КУРС\2 СЕМЕСТР\МИНАКОВА\TASK8_DAO_V2\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2023/05/29 21:46:18 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2023/05/29 21:46:18 | 
+INFO   | jvm 1    | 2023/05/29 21:46:18 | TCP server running at tcp://192.168.43.84:9092 (only local connections)
+INFO   | jvm 1    | 2023/05/29 21:46:18 | Web Console server running at http://192.168.43.84:8082 (only local connections)
+FATAL  | wrapper  | 2023/05/29 22:10:57 | OpenSCManager failed - Отказано в доступе. (0x5)
+STATUS | wrapper  | 2023/05/29 22:11:20 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/05/29 22:11:20 | Launching a JVM...
+INFO   | jvm 1    | 2023/05/29 22:11:20 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/05/29 22:11:20 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/05/29 22:11:20 | 
+INFO   | jvm 1    | 2023/05/29 22:11:20 | 
+INFO   | jvm 1    | 2023/05/29 22:11:20 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2023/05/29 22:11:20 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2023/05/29 22:11:20 |           could not be loaded:
+INFO   | jvm 1    | 2023/05/29 22:11:20 |             C:\Users\ahtir\Desktop\ВУЗ\3 КУРС\2 СЕМЕСТР\МИНАКОВА\TASK8_DAO_V2\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2023/05/29 22:11:20 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2023/05/29 22:11:20 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2023/05/29 22:11:20 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2023/05/29 22:11:20 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2023/05/29 22:11:20 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2023/05/29 22:11:20 |           Reported cause:
+INFO   | jvm 1    | 2023/05/29 22:11:20 |             C:\Users\ahtir\Desktop\ВУЗ\3 КУРС\2 СЕМЕСТР\МИНАКОВА\TASK8_DAO_V2\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2023/05/29 22:11:20 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2023/05/29 22:11:20 | 
+INFO   | jvm 1    | 2023/05/29 22:11:21 | TCP server running at tcp://192.168.43.84:9092 (only local connections)
+INFO   | jvm 1    | 2023/05/29 22:11:21 | Web Console server running at http://192.168.43.84:8082 (only local connections)
+STATUS | wrapper  | 2023/05/29 22:12:23 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/05/29 22:12:23 | Launching a JVM...
+INFO   | jvm 1    | 2023/05/29 22:12:23 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/05/29 22:12:23 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 
+INFO   | jvm 1    | 2023/05/29 22:12:23 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2023/05/29 22:12:23 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2023/05/29 22:12:23 |           could not be loaded:
+INFO   | jvm 1    | 2023/05/29 22:12:23 |             C:\Users\ahtir\Desktop\ВУЗ\3 КУРС\2 СЕМЕСТР\МИНАКОВА\TASK8_DAO_V2\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2023/05/29 22:12:23 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2023/05/29 22:12:23 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2023/05/29 22:12:23 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2023/05/29 22:12:23 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2023/05/29 22:12:23 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2023/05/29 22:12:23 |           Reported cause:
+INFO   | jvm 1    | 2023/05/29 22:12:23 |             C:\Users\ahtir\Desktop\ВУЗ\3 КУРС\2 СЕМЕСТР\МИНАКОВА\TASK8_DAO_V2\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2023/05/29 22:12:23 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 
+INFO   | jvm 1    | 2023/05/29 22:12:23 | TCP server running at tcp://192.168.43.84:51839 (only local connections)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | The Web Console server could not be started. Possible cause: another server is already running at http://192.168.43.84:8082
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 
+INFO   | jvm 1    | 2023/05/29 22:12:23 | WrapperSimpleApp: Encountered an error running main: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Ошибка при открытии порта "8082" (порт может уже использоваться), причина: "java.net.BindException: Address already in use: JVM_Bind"
+INFO   | jvm 1    | 2023/05/29 22:12:23 | Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: JVM_Bind" [90061-214]
+INFO   | jvm 1    | 2023/05/29 22:12:23 | org.h2.jdbc.JdbcSQLNonTransientConnectionException: Ошибка при открытии порта "8082" (порт может уже использоваться), причина: "java.net.BindException: Address already in use: JVM_Bind"
+INFO   | jvm 1    | 2023/05/29 22:12:23 | Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: JVM_Bind" [90061-214]
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at org.h2.message.DbException.get(DbException.java:212)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:211)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at org.h2.util.NetUtils.createServerSocket(NetUtils.java:177)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at org.h2.server.web.WebServer.start(WebServer.java:409)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at org.h2.tools.Server.start(Server.java:521)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at org.h2.tools.Server.runTool(Server.java:339)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at org.h2.tools.Server.main(Server.java:126)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO   | jvm 1    | 2023/05/29 22:12:23 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2023/05/29 22:12:24 | 	at java.lang.Thread.run(Unknown Source)
+INFO   | jvm 1    | 2023/05/29 22:12:24 | Caused by: java.net.BindException: Address already in use: JVM_Bind
+INFO   | jvm 1    | 2023/05/29 22:12:24 | 	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+INFO   | jvm 1    | 2023/05/29 22:12:24 | 	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+INFO   | jvm 1    | 2023/05/29 22:12:24 | 	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+INFO   | jvm 1    | 2023/05/29 22:12:24 | 	at java.net.PlainSocketImpl.bind(Unknown Source)
+INFO   | jvm 1    | 2023/05/29 22:12:24 | 	at java.net.ServerSocket.bind(Unknown Source)
+INFO   | jvm 1    | 2023/05/29 22:12:24 | 	at java.net.ServerSocket.<init>(Unknown Source)
+INFO   | jvm 1    | 2023/05/29 22:12:24 | 	at java.net.ServerSocket.<init>(Unknown Source)
+INFO   | jvm 1    | 2023/05/29 22:12:24 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:207)
+INFO   | jvm 1    | 2023/05/29 22:12:24 | 	... 11 more
+STATUS | wrapper  | 2023/05/29 22:12:25 | <-- Wrapper Stopped
+FATAL  | wrapper  | 2023/05/29 22:12:31 | OpenSCManager failed - Отказано в доступе. (0x5)
+FATAL  | wrapper  | 2023/05/29 22:13:05 | OpenSCManager failed - Отказано в доступе. (0x5)
+FATAL  | wrapper  | 2023/05/29 22:13:20 | OpenSCManager failed - Отказано в доступе. (0x5)
+FATAL  | wrapper  | 2023/05/29 22:20:07 | OpenSCManager failed - Отказано в доступе. (0x5)
+FATAL  | wrapper  | 2023/05/29 22:21:51 | OpenSCManager failed - Отказано в доступе. (0x5)
